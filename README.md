@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Repository URL: [Click Here](https://github.com/CBrandsDev/Aspect-Ratio-Calculator)
-- Live Site URL: [Click Here](https://cbrandsdev.github.io/Four-Card-Feature-Section/)
+- Live Site URL: [Click Here](https://cbrandsdev.github.io/Aspect-Ratio-Calculator)
 
 ## My process
 

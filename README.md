@@ -1,6 +1,6 @@
-# Frontend Mentor - Four card feature section
+# Aspect Ratio Calculator
 
-This is a solution to the [Order summary card](https://www.frontendmentor.io/solutions/3column-preview-card-component--xxamoxSKH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is an appreciated javascript project demonstrating a resolution calculation for monitors
 
 ## Table of contents
 
@@ -19,19 +19,20 @@ This is a solution to the [Order summary card](https://www.frontendmentor.io/sol
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- Automated calculation within the website
+- Unique design specially made for the calculation card
 
 ### Screenshot
 
-![](./assets/design/screenshotdesktop.png)
-![](./assets/design/screenshotmobile.png)
+![](./assets/css/images/screenshot1.png)
+![](./assets/css/images/screenshot2.png)
+![](./assets/css/images/screenshotmobile.png)
 
 
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/four-card-feature-section-2lFU_qZ0WL)
+- Repository URL: [Click Here](https://github.com/CBrandsDev/Aspect-Ratio-Calculator)
 - Live Site URL: [Click Here](https://cbrandsdev.github.io/Four-Card-Feature-Section/)
 
 ## My process
@@ -42,24 +43,25 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Script in JS
 
 
 ### What I learned
 
 In this challenge I managed to understand how the interactive elements work using hover in the css, I also managed to implement some shadows in the layout of the information box, which makes a good impression at first glance. 
 I used media settings to set different settings for different mobile devices
+I also demonstrated a little javascript, although simple because it was my first code using js I was very happy with the result
 
 ```css
 .card {
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 ```
-```css
-.overlay:hover {
-    background-color: hsl(178, 100%, 50%) ;
-    opacity: 0.7;
-    transition: all 0.3s ease-in-out;
-}
+```js
+let ratioWidth = document.getElementById("ratio-width");
+let ratioHeight = document.getElementById("ratio-height");
+let width = document.getElementById("width");
+let height = document.getElementById("height");
 ```
 ```css
 @media screen and (max-width: 688px) {
@@ -79,6 +81,6 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 ## Author
 
 - Github - [@CbrandsDev](https://github.com/CBrandsDev)
-- Frontend Mentor - [@CBrandsDev](https://www.frontendmentor.io/profile/CBrandsDev)
+- Linkedin - [Calil Brandão](https://www.linkedin.com/in/calil-brand%C3%A3o/)
 - Twitter - [@onlythecalil](https://twitter.com/onlythecalil)
 

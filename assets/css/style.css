@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+body {
+    background-color: white;
+    background-image: url(./images/5594016.jpg);
+    position: relative;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    gap: 30px;
+    background: rgb(36,36,36);
+    background: linear-gradient(90deg, rgba(36,36,36,0.9051995798319328) 0%, rgba(99,103,103,0.9192051820728291) 26%, rgba(247,247,247,0.9360119047619048) 91%);
+    padding: 80px 40px;
+    position: absolute;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 12px;
+    box-shadow: 0 30px 45px rgba(18, 8, 39, 0.2);
+}
+
+.container h2 {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+h2 span{
+    color: rgb(69, 69, 173);
+}
+
+.wrapper-1 input {
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    border: solid 5px rgb(69, 69, 173);
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    font-size: 30px;
+}
+.wrapper-2  input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    border: solid 5px rgb(69, 69, 173);
+    border-radius: 10px;
+}
+
+.wrapper-3  input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    border: solid 5px rgb(69, 69, 173);
+    border-radius: 10px;
+}
